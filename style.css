@@ -4,6 +4,7 @@ body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    height: 200vh;
 }
 .wrapper {
     background-size: cover;
@@ -19,7 +20,7 @@ body {
     top: 0;
     bottom: 0; */
     width: 100%;
-    min-height: 800px;
+    min-height: 100vh;
 }
 
 .text-box {
@@ -76,6 +77,7 @@ body {
         height: 800px;
         width: 100%;
         background-repeat: no-repeat;
+        min-height: 100vh;
     }
 
     .eyes {
@@ -103,9 +105,17 @@ body {
         font-size: 20px;
         cursor:url('Subtract.png');
         position: absolute;
-        bottom: -650px;
+        bottom: -360px;
         left: 50%;
         border: 5px solid black;
+        color: black;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+    a:hover {
+        cursor: pointer;
     }
 
     @media screen and (max-width: 768px) {
@@ -128,4 +138,17 @@ body {
             margin-top: 300px;
             width: 300px;
         }
+      }
+
+      footer {
+        position: absolute;
+        bottom: -100vh;
+
+      }
+
+      footer p {
+        font-size: 10px;
+        font-family: monospace;
+       margin: 10px 50px;
+        text-align: center;
       }
