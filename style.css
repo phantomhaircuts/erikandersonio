@@ -120,7 +120,7 @@ body {
 
     @media screen and (max-width: 768px) {
         .text-box {
-            margin-top: 100px;
+            margin-top: 200px;
             height: 100px;
             width: 330px;
             position: absolute;
@@ -130,12 +130,12 @@ body {
 
         .bio {
             margin-left: 10px;
-        font-size: 15px;
+            font-size: 15px;
         }
 
         .eyes {
-            margin-left: 1px;
-            margin-top: 300px;
+            margin-left: 50px;
+            margin-top: 340px;
             width: 300px;
         }
       }
