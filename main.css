@@ -74,7 +74,7 @@ section {
     position: absolute;
     z-index: -1;
     color: gainsboro;
-    top: 10%;
+    top: 10vh;
     /* left: 10%; */
     white-space: nowrap;
     font-size: 5rem;
