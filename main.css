@@ -54,6 +54,7 @@ section {
 }
 
 .three {
+  padding-top: 3rem;
     font-size: 2rem;
     position: relative;
     overflow: hidden;
@@ -152,5 +153,8 @@ font-style: normal;
   .p-img {
     width: 300px;
     margin: 0 auto;
+  }
+  .three {
+    padding-top: 0;
   }
 }
