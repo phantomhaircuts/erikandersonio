@@ -136,7 +136,7 @@ body {
 
 footer {
     position: absolute;
-    bottom: -100vh;
+    bottom: -102vh;
     background-color: #1e1414;
 
   }
@@ -173,6 +173,9 @@ footer {
         .projects {
             top: 400px;
             left: 150px;
+        }
+        footer {
+            bottom: -120vh;
         }
       }
 
