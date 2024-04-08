@@ -8,6 +8,7 @@ body {
     width: 80%;
     margin: 0 auto;
     padding-bottom: 3rem;
+    padding: 0;
 }
 
 img {
@@ -17,13 +18,13 @@ img {
 }
 
 .intro {
-    background-color: red;
-    background-image: url("tend_crop_1.gif");
+    /* background-color: red; */
+    background-image: url("https://gitlab.com/blighteddistrics/portfolioassets/-/raw/main/sample.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     padding: 2rem;
 }
 

@@ -13,7 +13,7 @@ body {
     overflow: hidden;
     margin: 0;
     padding: 0;
-    background-image: url('bg1.png');
+    background-image: url('assets/bg1.png');
     background-repeat: no-repeat;
     background-size: cover;
     /* position: absolute;
@@ -67,14 +67,14 @@ body {
         left: 0;
         width: 20px;
         height: 20px;
-        background: url("petal.png") no-repeat;
+        background: url("assets/petal.png") no-repeat;
         background-size: 100%;
         transform-style: preserve-3d;
         backface-visibility: visible;
       }
 
     .section-two {
-        background-image: url('shape.png');
+        background-image: url('assets/shape.png');
         height: 800px;
         width: 100%;
         background-repeat: no-repeat;
@@ -104,7 +104,7 @@ body {
         padding: 10px;
         font-family: cc-mighty-mouth-variable, sans-serif;
         font-size: 20px;
-        cursor:url('Subtract.png');
+        cursor:url('assets/Subtract.png');
         position: absolute;
         bottom: -360px;
         left: 50%;
@@ -125,7 +125,7 @@ body {
         padding: 20px;
         font-family: cc-mighty-mouth-variable, sans-serif;
         font-size: 20px;
-        cursor:url('Subtract.png');
+        cursor:url('assets/Subtract.png');
         position: absolute;
         top: 400px;
         left: 50%;

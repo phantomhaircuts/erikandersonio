@@ -59,7 +59,7 @@ section {
     position: relative;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
-    background-image: url('concrete_seamless.png');
+    background-image: url('assets/concrete_seamless.png');
     background-position: center;
     background-color:rgb(255, 236, 236);
     max-width: 100%;
@@ -80,7 +80,7 @@ section {
     white-space: nowrap;
     font-size: 5rem;
     background-color: rgb(255, 255, 255);
-    background-image: url('hip-square.png');
+    background-image: url('assets/hip-square.png');
 }
 
 h1 {
