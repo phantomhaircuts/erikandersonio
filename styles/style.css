@@ -1,0 +1,189 @@
+@import url("https://use.typekit.net/hvv2urb.css");
+html {
+    box-sizing: border-box;
+    }
+    *, *:before, *:after {
+    box-sizing: inherit;
+    }
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    height: 200vh;
+}
+.wrapper {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-image: url('../assets/bg1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: absolute;
+    top: 0;
+    bottom: 0; */
+    width: 100%;
+    min-height: 100vh;
+}
+
+.text-box {
+    margin-top: 100px;
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    background-color: white;
+    left: 40%;
+}
+
+.name {
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    font-family: cc-mighty-mouth-variable, sans-serif;
+    font-size: 20px;
+}
+
+
+.falling-leaves {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .leaf-scene {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      transform-style: preserve-3d;
+      z-index: 0;
+    }
+
+    .leaf-scene div {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 20px;
+        height: 20px;
+        background: url("../assets/petal.png") no-repeat;
+        background-size: 100%;
+        transform-style: preserve-3d;
+        backface-visibility: visible;
+      }
+
+    .section-two {
+        background-image: url('../assets/shape.png');
+        height: 800px;
+        width: 100%;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+    }
+
+    .eyes {
+        margin-left: 40%;
+        margin-top: 300px;
+    }
+
+    .bio {
+        width: 200px;
+        background-color: white;
+        border: 3px solid black;
+        margin-top: 200px;
+        margin-left: 150px;
+        position: absolute;
+        font-family: cc-mighty-mouth-variable, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    }
+
+    button {
+        background-color: white;
+        height: 50px;
+        padding: 10px;
+        font-family: cc-mighty-mouth-variable, sans-serif;
+        font-size: 20px;
+        cursor:url('../assets/Subtract.png');
+        position: absolute;
+        bottom: -360px;
+        left: 50%;
+        border: 5px solid black;
+        color: black;
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+    a:hover {
+        cursor: pointer;
+    }
+
+    .projects {
+        background-color: white;
+        height: 70px;
+        padding: 20px;
+        font-family: cc-mighty-mouth-variable, sans-serif;
+        font-size: 20px;
+        cursor:url('../assets/Subtract.png');
+        position: absolute;
+        top: 400px;
+        left: 50%;
+        z-index: 10000;
+        border: 5px solid black;
+        color: black;
+}
+
+footer {
+    position: absolute;
+    bottom: -102vh;
+    background-color: #1e1414;
+
+  }
+
+  footer p {
+    font-size: 10px;
+    font-family: monospace;
+   margin: 10px 50px;
+    text-align: center;
+    color: white;
+  }
+
+    @media screen and (max-width: 768px) {
+        .text-box {
+            margin-top: 200px;
+            height: 100px;
+            width: 330px;
+            position: absolute;
+            background-color: white;
+            left: 10%;
+        }
+
+        .bio {
+            margin-left: 10px;
+            font-size: 15px;
+        }
+
+        .eyes {
+            margin-left: 50px;
+            margin-top: 340px;
+            width: 300px;
+        }
+
+        .projects {
+            top: 400px;
+            left: 150px;
+        }
+        footer {
+            bottom: -120vh;
+        }
+      }
+
+   
+
+

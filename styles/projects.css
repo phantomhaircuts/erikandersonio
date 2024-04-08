@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+    }
+    *, *:before, *:after {
+    box-sizing: inherit;
+    }
+    
+body {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+.project-container {
+    width: 80vw;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+    padding: 0;
+}
+
+img {
+    padding-top: 1rem;
+    /* margin: 0 auto; */
+    width: 100%;
+}
+
+.intro {
+    /* background-color: red; */
+    background-image: url("https://gitlab.com/blighteddistrics/portfolioassets/-/raw/main/sample.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    padding: 2rem;
+    margin: 0;
+}
+
+.blurb {
+    width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+.project-container {
+    width: 90vw;
+}
+.intro {
+    height: 40vh;
+}
+
+}

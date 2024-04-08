@@ -1,0 +1,165 @@
+@import url("https://use.typekit.net/ecx4dbs.css");
+@import url("https://use.typekit.net/hvv2urb.css");
+html {
+  box-sizing: border-box;
+  }
+  *, *:before, *:after {
+  box-sizing: inherit;
+  }
+body {
+    font-family: monospace;
+    height: 399vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.line-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    z-index: 3;
+    margin-bottom: 20vh;
+}
+
+svg {
+    display: inline-block;
+    height: 100%;
+    color: black;
+}
+
+section {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    font-family: monospace;
+    font-size: 3rem;
+    padding: 1.5rem;
+}
+
+.one {
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+}
+
+.two {
+    font-size: 3rem;
+    position: relative;
+    overflow: hidden;
+    padding-left: 3vw;
+    background-image: url('city.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+}
+
+.three {
+  padding-top: 3rem;
+    font-size: 2rem;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    background-image: url('assets/concrete_seamless.png');
+    background-position: center;
+    background-color:rgb(255, 236, 236);
+    max-width: 100%;
+
+}
+
+.foot {
+    background-color: rgb(255, 255, 255);
+}
+
+
+.pbg {
+    position: absolute;
+    z-index: -1;
+    color: gainsboro;
+    top: 10vh;
+    /* left: 10%; */
+    white-space: nowrap;
+    font-size: 5rem;
+    background-color: rgb(255, 255, 255);
+    background-image: url('assets/hip-square.png');
+}
+
+h1 {
+
+font-family: handsome-pro, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.bio {
+    font-size: 1.5rem;
+    width: 300px;
+    background-color: white;
+    padding: 1rem;
+    border: 5px solid black;
+}
+
+.links {
+    font-size: 1.5rem;
+    z-index: 8;
+}
+
+.cursor {
+    pointer-events: none;
+    
+    &__ball {
+      position: fixed;
+      top: 0;
+      left: 0;
+      mix-blend-mode: difference;
+      z-index: 1000;
+      
+      circle {
+        fill: #f7f8fa;
+      }
+    }
+  } 
+
+  .bio-pic {
+    width: 200px;
+  }
+
+  .description {
+    font-size: 1.5rem;
+    width: 300px;
+    padding-left: 10vw;
+  }
+
+  .tree {
+    margin-bottom: 200px;
+    width: 500px;
+  }
+
+  a, a:visited {
+    color: black;
+  }
+
+  .text-box {
+    padding: 10px solid black;
+    background-color: white;
+    font-family: cc-mighty-mouth-variable, sans-serif;
+    font-size: 3rem;
+}
+
+.p-img {
+  width: 500px;
+}
+
+@media screen and (max-width: 768px) {
+  .p-img {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .three {
+    padding-top: 0;
+  }
+}
